@@ -81,7 +81,7 @@ def main():
         options.add_argument('headless')
     driver = webdriver.Chrome(
         chrome_options=options,
-        executable_path="C:/Downloads/chromedriver_win32/chromedriver.exe",
+        executable_path="C:/Users/omiah/Downloads/chromedriver_win32/chromedriver.exe",
     )
     driver.get("https://globalsearch.cuny.edu/")
     collegeID = driver.find_elements_by_xpath("//*[contains(text(), '" +
